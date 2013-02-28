@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <title>jQuery Mobile</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+        <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+    </head>
+    <body>
+
+        <div data-role="page" id="pagina1" data-theme="a" data-fullscreen="true">
+            <div data-role="header" data-theme="a" data-position="fixed">
+                <h1>jQuery Mobile</h1>
+                <a href="#pagina2">Cancelar</a>
+                <a href="#pagina2" data-role="none" data-theme="a">Grabar</a>
+            </div>
+
+            <div data-role="content">
+                <p>¿Es posible construir software que no falle?
+Por: Año Turing | 26 de julio de 2012
+FERNANDO OREJAS
+Todos los días, miles de usuarios de ordenadores sufren fallos de software: programas que se cierran inesperadamente, que dejan el sistema bloqueado o, simplemente, que producen resultados erróneos. Sin embargo, pese a las molestias que nos ocasionan, tendemos a considerarlo un mal inevitable. Imaginemos que esto ocurriera con las lavadoras: que cada 4 o 5 días nuestra lavadora se parara en mitad de un lavado y que algunas veces nos dejara la ropa inservible. Seguramente, nadie se resignaría y habría quejas y demandas. Probablemente, la empresa responsable tendría que pagar indemnizaciones. En este contexto, nos podemos preguntar: ¿Qué hace que el software falle y las lavadoras no?  ¿Es realmente imposible desarrollar software que no tenga fallos?
+
+Un problema básico de los sistemas software es su carácter discreto,   que hace que modificaciones muy pequeñas puedan provocar cambios radicales de comportamiento. Por el contrario, en las ingenierías clásicas los productos suelen tener carácter continuo, con lo que pequeñas alteraciones sólo provocan pequeños cambios de comportamiento. Por ejemplo, una mínima modificación en la tasa de entrada de combustible a un motor sólo provocará un mínimo cambio en su funcionamiento, como puede ser una pequeña variación en el número de revoluciones. Sin embargo, pequeñas modificaciones en un programa pueden tener efectos catastróficos. Por ejemplo, substituir en un programa una suma por una resta (lo que representa una modificación de un carácter entre los muchos miles que puede tener el programa) puede cambiar completamente su comportamiento. Por pequeños errores de este tipo, en 1962  se perdió el Mariner 1, la primera sonda espacial enviada a Venus, y en 1996 se perdió el cohete europeo Ariane 5. En el primer caso, las pérdidas se estimaron en 15 millones de Euros y, en el segundo,  en 400 millones de Euros. El carácter discreto del software ocasiona que las técnicas matemáticas que se utilizan tradicionalmente en ingeniería sean relativamente poco útiles en el diseño de software. En particular, la mayor parte de técnicas que permiten estudiar el software están basadas en la llamada matemática discreta y, especialmente, en la lógica matemática, cuyo estudio es mucho menos frecuente.</p>
+            </div>
+
+
+            <div data-role="footer" data-theme="a" class="ui-bar" data-position="fixed">
+                <div data-role="controlgroup" data-type="horizontal">
+
+                <a href="#" data-icon="plus">Arreglar</a>
+                <a href="#" data-icon="delete">Eliminar</a>
+                <a href="#">Refrescar</a>
+                </div>
+                Pais:   <select>
+                            <option>Argentina</option>
+                            <option>Bolivia</option>
+                            <option>Colombia</option>
+                        </select>
+            </div>
+        </div>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <title>jQuery Mobile</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+        <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+        <style type="text/css">
+
+            .ui-block-a, .ui-block-b, .ui-block-c {
+                border: 1px solid green;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div data-role="page" data-theme="b" >
+            <div data-role="header" data-theme="e">
+                <h1>Listas</h1>
+            </div>
+
+            <div data-role="content">
+                <h2>Curso de Programacion</h2>
+                <ul data-role="listview" data-inset="true">
+                    <li><a href="#detalle">iPhone</a></li>
+                    <li><a href="#detalle">Android</a></li>
+                    <li>jQuery Mobile</li>
+                    <li>PhoneGap</li>
+                    <li>Dreamweaver</li>
+                    <li>Java Basico</li>
+                    <li>JavaScript</li>
+                    <li>PHP Basico</li>
+                    <li>PHP Avanzado</li>
+                    <li>iOS 8</li>
+                </ul>
+
+                 <h2>Curso de Programacion</h2>
+                <ul data-role="listview">
+                    <li><a href="#detalle">iPhone</a></li>
+                    <li><a href="#detalle">Android</a></li>
+                    <li>jQuery Mobile</li>
+                    <li>PhoneGap</li>
+                    <li>Dreamweaver</li>
+                    <li>Java Basico</li>
+                    <li>JavaScript</li>
+                    <li>PHP Basico</li>
+                    <li>PHP Avanzado</li>
+                    <li>iOS 8</li>
+                </ul>
+
+
+            </div>
+
+            <div data-role="footer" data-theme="b">
+                <h4>(C) 2013 Henry AT</h4>
+            </div>
+
+        </div>
+
+        <!-- ############################################## -->
+        <div data-role="page" data-theme="b" id="detalle">
+            <div data-role="header" data-theme="e">
+                <h1>Pagina de Detalle</h1>
+            </div>
+
+            <div data-role="content">
+                <h2>Enlace de dispositivos Mobiles</h2>
+
+            </div>
+
+            <div data-role="footer" data-theme="b">
+                <h4>(C) 2013 Henry AT</h4>
+            </div>
+
+        </div>
+
+    </body>
+</html>

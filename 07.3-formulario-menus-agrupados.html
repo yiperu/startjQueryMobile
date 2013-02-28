@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <title>jQuery Mobile</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+        <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+        <style type="text/css">
+
+            .ui-block-a, .ui-block-b, .ui-block-c {
+                border: 1px solid green;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div data-role="page" data-theme="b" >
+            <div data-role="header" data-theme="b">
+                <h1>Formularios</h1>
+            </div>
+
+            <div data-role="content">
+                <h2>Controles de Formularios</h2>
+                <form action="" method="get">
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+
+                    <label for="comentarios">Comentarios</label>
+                    <textarea id="comentarios" name="comentarios"></textarea>
+
+                    <label for="edad">Edad</label>
+                    <input type="range" min="0" max="120" id="email" name="edad">
+
+                    <label for="suscribe">Te suscribes?</label>
+                    <select id="suscribe"  id="suscribe" data-role="slider">
+                        <option>Si</option>
+                        <option>No</option>
+                    </select>
+
+
+                    <label for="pais">Pais</label>
+                    <select id="pais" name="pais">
+                        <option>Peru</option>
+                        <option>Argentina</option>
+                        <option>Brasil</option>
+                        <option>España</option>
+                    </select>
+
+                    <fieldset data-role="controlgroup">
+                        <legend>Fecha de Nacimiento</legend>
+                        <select id="dia" name="dia">
+                            <option>Dia</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+
+                        <select id="mes" name="mes">
+                            <option>Mes</option>
+                            <option>Enero</option>
+                            <option>Febrero</option>
+                            <option>Marzo</option>
+                        </select>
+
+                        <select id="anio" name="anio">
+                            <option>Año</option>
+                            <option>1960</option>
+                            <option>1970</option>
+                            <option>1986</option>
+                        </select>
+                    </fieldset>
+
+                </form>
+
+            </div>
+
+            <div data-role="footer" data-theme="b">
+                <h4>(C) 2013 Henry AT</h4>
+            </div>
+
+        </div>
+
+
+
+    </body>
+</html>
